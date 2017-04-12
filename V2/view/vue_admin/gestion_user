@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <meta charset="utf-8">
+              <title></title>
+              <link rel="stylesheet" type="text/css" href="../../assets/css/materialize.css">
+       </head>
+       <body>
+
+       </body>
+</html>
+
+<div class="conteneur ">
+          <div class="row">
+                 <div class="  offset-s3 col 5 center">
+
+                       <h1> Voici les membres inscrit au site </h1>
+                       <p>
+                     Nombre de membre(s) : <?php value.GetNombremenbre(); ?>
+                     </p>
+                     <table class="responsive-table highlight centered striped">
+                        <?php value.getMenbresite(); ?>
+                     </table>
+
+                </div>
+         </div>
+   </div>
