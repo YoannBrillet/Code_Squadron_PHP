@@ -1,4 +1,6 @@
-<form method="post" action="">
+<h1>Inscrivez-Vous</h1>
+
+<form method="post" action="#">
     <label for="pseudo">Pseudo</label><br>
     <input type="text" id="pseudo" name="pseudo" maxlength="20" placeholder="votre pseudo" pattern="[a-zA-Z0-9-_.]{1,20}" title="caractéres acceptés : a-zA-Z0-9-_." required="required"><br><br>
 
@@ -15,11 +17,11 @@
     <input type="email" id="email" name="email" placeholder="exemple@gmail.com"><br><br>
 
     <p>
-       <input name="group1" type="radio" id="homme"  value="m"/>
+       <input name="civilite" type="radio" id="homme"  value="m"/>
        <label for="homme">Homme</label>
      </p>
      <p>
-       <input name="group1" type="radio" id="femme" value="f"/>
+       <input name="civilite" type="radio" id="femme" value="f"/>
        <label for="femme">Femme</label>
      </p>
 
@@ -33,5 +35,5 @@
     <textarea id="adresse" name="adresse" placeholder="votre dresse" pattern="[a-zA-Z0-9-_.]{5,15}" title="caractéres acceptés :  a-zA-Z0-9-_."></textarea><br><br>
 
 
-    <button type="button" class="waves-effect waves-light btn ">Subscribe </button>
+    <button type="submit" class="waves-effect waves-light btn ">Inscription </button>
   </form>

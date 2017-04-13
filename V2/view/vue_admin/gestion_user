@@ -19,7 +19,7 @@
                      Nombre de membre(s) : <?php value.GetNombremenbre(); ?>
                      </p>
                      <table class="responsive-table highlight centered striped">
-                        <?php value.getMenbresite(); ?>
+                        <?php value.AfficheMenbresite(); ?>
                      </table>
 
                 </div>
