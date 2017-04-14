@@ -1,1 +1,0 @@
-https://color.adobe.com/fr/Web-color-theme-6566109/edit/?copy=true&base=2&rule=Custom&selected=1&name=Copie%20de%20Web&mode=hex&rgbvalues=0.141176,0.141176,0.141176,0.345098,0.345098,0.352941,0,0.682353,0.937255,0.666667,0.917647,1,1,1,1&swatchOrder=0,1,2,3,4 
